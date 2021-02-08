@@ -1,0 +1,82 @@
+<div class="d-flex justify-content-center h1 p-5">All Courses</div>
+
+<div class="container">
+
+    <!-- <div class="row d-flex justify-content-around pb-3">
+        <div class="card col-lg-3">
+            <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="title">{{courseList[0].name}}</h5>
+                <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                <p class="card-text">{{courseList[0].description}}</p>
+                <button style="float: right;">Know More</button>
+            </div>
+        </div>
+        <div class="card col-lg-3">
+            <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="title">{{courseList[0].name}}</h5>
+                <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                <p class="card-text">{{courseList[0].description}}</p>
+                <button style="float: right;">Know More</button>
+            </div>
+        </div>
+        <div class="card col-lg-3">
+            <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="title">{{courseList[0].name}}</h5>
+                <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                <p class="card-text">{{courseList[0].description}}</p>
+                <button style="float: right;">Know More</button>
+            </div>
+        </div>
+
+
+    </div> -->
+
+
+    <div class="table">
+        <div class="row d-flex justify-content-around pb-3" *ngFor="let course of courseList; let i = index">
+            <!-- <div class="td" > -->
+                <div class="td card col-lg-3">
+                    <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="title">{{courseList[0].name}}</h5>
+                        <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                        <p class="card-text">{{courseList[0].description}}</p>
+                        <button style="float: right;">Know More</button>
+                    </div>
+                </div>
+                <div class="td card col-lg-3">
+                    <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="title">{{courseList[0].name}}</h5>
+                        <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                        <p class="card-text">{{courseList[0].description}}</p>
+                        <button style="float: right;">Know More</button>
+                    </div>
+                </div>
+                <div class="td card col-lg-3">
+                    <img class="card-img-top" src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="title">{{courseList[0].name}}</h5>
+                        <h6 class="card-subtitle">{{courseList[0].level}}</h6>
+                        <p class="card-text">{{courseList[0].description}}</p>
+                        <button style="float: right;">Know More</button>
+                    </div>
+                </div>
+
+
+
+            <!-- </div> -->
+        </div>
+    </div>
+
+
+</div>

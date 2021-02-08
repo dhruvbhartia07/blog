@@ -1,0 +1,1 @@
+docker run --name learn-angular -p 4200:4200 -p 80:80 -it -v /home/dhruv/Projects:/app node:15.8.0 bash
